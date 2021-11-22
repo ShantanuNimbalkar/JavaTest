@@ -20,6 +20,7 @@ public class Test {
             aesCipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);
             byte[] encrypted = aesCipher.doFinal(CIPHER_INPUT.getBytes("UTF-8"));
             IO.writeLine(IO.toHex(encrypted));
+		System.out.println("");
                  }
          private void inValid() throws Throwable
 	        {
