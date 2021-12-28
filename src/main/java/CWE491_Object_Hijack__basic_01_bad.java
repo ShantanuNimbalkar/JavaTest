@@ -18,7 +18,7 @@ public class CWE491_Object_Hijack__basic_01_bad extends AbstractTestCaseClassIss
     private Date theDate = new Date();
     
     /* FLAW: clone() method not declared final */
-    protected Object clone() throws CloneNotSupportedException 
+    public Object clone() throws CloneNotSupportedException 
     {
         CWE491_Object_Hijack__basic_01_bad objectBad = (CWE491_Object_Hijack__basic_01_bad) super.clone();     
         objectBad.setDate(new Date(theDate.getTime()));
