@@ -37,7 +37,7 @@ public class Model {
 
     public void setEmpoyee_id(int empoyee_id) {
         Empoyee_id = empoyee_id;
-        System.out.println("Hello");
+        //System.out.println("Hello");
     }
 
     public long getSalaryOfEmployee() {
