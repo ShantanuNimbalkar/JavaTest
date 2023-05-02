@@ -27,26 +27,32 @@ public class Model {
 
     public void setNameOfEmployee(String nameOfEmployee) {
         NameOfEmployee = nameOfEmployee;
+        System.out.println("Hello");
     }
 
     public int getEmpoyee_id() {
         return Empoyee_id;
+        System.out.println("Hello");
     }
 
     public void setEmpoyee_id(int empoyee_id) {
         Empoyee_id = empoyee_id;
+        System.out.println("Hello");
     }
 
     public long getSalaryOfEmployee() {
         return SalaryOfEmployee;
+        System.out.println("Hello");
     }
 
     public void setSalaryOfEmployee(long salaryOfEmployee) {
         SalaryOfEmployee = salaryOfEmployee;
+        System.out.println("Hello");
     }
 
     public Date getJoiningDateOfEmployee() {
         return JoiningDateOfEmployee;
+        System.out.println("Hello");
     }
 
     public void setJoiningDateOfEmployee(Date joiningDateOfEmployee) {
