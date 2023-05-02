@@ -27,12 +27,12 @@ public class Model {
 
     public void setNameOfEmployee(String nameOfEmployee) {
         NameOfEmployee = nameOfEmployee;
-        System.out.println("Hello");
+        //System.out.println("Hello");
     }
 
     public int getEmpoyee_id() {
         return Empoyee_id;
-        System.out.println("Hello");
+        //System.out.println("Hello");
     }
 
     public void setEmpoyee_id(int empoyee_id) {
