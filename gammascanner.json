@@ -1,0 +1,203 @@
+{
+    "gammaAccess": {
+        "url": "http://localhost:3001",
+        "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTY5NDA4OTcxMTc2NCwiaWF0IjoxNjk0MDg5NzExfQ.TeL-VpDlhY1qyAux3p_ZzKcnWGGcOusmqP0ZNB6vwtimI5v0cyJj1Qeb65HG9RQgL1dPm7MBm319vpTyZ6cPdw"
+    },
+    "repositories": [
+        {
+            "dataDir": "$WORKSPACE/temptk8",
+            "repository": {
+                "uid": "d5d2c4515034e3e46baadb44a7823385",
+                "projectName": "Java",
+                "languages": [
+                    "JAVA"
+                ],
+                "sources": {
+                    "baseDir": "$WORKSPACE",
+                    "exclusions": [
+                        "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "codeissues": [
+                    {
+                        "name": "embold_sec",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "gamma_java",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pmd",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "javaVersion",
+                                    "type": "text",
+                                    "value": "1.8",
+                                    "required": false
+                                },
+                                {
+                                    "name": "ruleSets",
+                                    "type": "text",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "coverage": [
+                    {
+                        "name": "clover",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "jacoco",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "binaryReportPath",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": false
+                                },
+                                {
+                                    "name": "xmlReportPath",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": false
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "unittest": [
+                    {
+                        "name": "junit",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "report_processor": [
+                    {
+                        "name": "ext_report_processor",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "dem.reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "dem.reportFile",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "memory.reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "memory.reportFile",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "ameos.reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                },
+                                {
+                                    "name": "ameos.reportFile",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
